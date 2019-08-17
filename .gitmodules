@@ -1,0 +1,3 @@
+[submodule "2. yolov3 fork/yolov3"]
+	path = 2. yolov3 fork/yolov3
+	url = https://github.com/alpizano/yolov3.git
