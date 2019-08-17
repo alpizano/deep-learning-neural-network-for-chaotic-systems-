@@ -9,7 +9,7 @@ Hiya, this will be a guide for my senior design project that spans two semesters
 2.
 3.
 
-# Setup Tests
+# 0. Setup Tests
 These are simple setup procedures that aid in later creating the neural network.
 
 Let's make sure PyTorch is utilizing your NVIDIA CUDA GPU (if you have one that is):
@@ -55,4 +55,5 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-# Prerequisite Tasks
+# 1. Prerequisite Tasks
+In Senior Design, we form interdisciplinary groups with other engineers ranging from Mechanical
