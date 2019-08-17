@@ -10,7 +10,9 @@ Hiya, this will be a guide for my senior design project that spans two semesters
 3.
 
 # Setup Tests
-These are setup test to run to make sure for example, PyTorch is utilizing your NVIDIA CUDA GPU:
+These are simple setup procedures that aid in later creating the neural network.
+
+Let's make sure PyTorch is utilizing your NVIDIA CUDA GPU (if you have one that is):
 ```
 In [1]: import torch
 
