@@ -32,6 +32,7 @@ In [6]: torch.cuda.is_available()
 Out[6]: True
 ```
 Often, we have to capture live stream with camera. OpenCV provides a very simple interface to this. Further more information, please refer to this website:
+
 https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_video_display/py_video_display.html
 ```
 import numpy as np
