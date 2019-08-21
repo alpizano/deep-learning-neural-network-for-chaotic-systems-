@@ -8,6 +8,7 @@ Hiya, this will be a guide for my senior design project that spans two semesters
 0. Setup Tests
 1. Prerequisite Tasks
 2. YOLOv3
+3. Mturk Data Annotations
 
 # 0. Setup Tests
 These are simple setup procedures that aid in later creating the neural network.
@@ -64,18 +65,25 @@ cv2.destroyAllWindows()
 In the first semester of Senior design, our group was led by Dr. Bin Chen. We were given some prelimary tasks to complete before embarking on actually trying to get a localization or classifcation neural network built. The first task was an image processing task which consisted becoming used to some of the basic techniques of image processing, like utilizing the PyTorch tensors,and the pillow (PIL) libraries:
 https://www.cs.virginia.edu/~vicente/recognition/notebooks/image_processing_lab.html
 
-The image processing techniques mainly background subtraction and array manipulation and were written inside Jupyter notebook using Python 3. The techniques can be view below:
+The image processing techniques mainly background subtraction and array manipulation and were written inside Jupyter notebook using Python 3. The techniques can be view below in the Jupyter notebook file:
 
 ## Background Subtraction and Array Manipulation
 
 [Background Substraction and Array Manipulation.pynb](1.%20Prerequisite%20Tasks/Image%20Processing/background_subtraction_array_manipulation.ipynb)
 
+The second task we were given was to begin to implement a simple binary classifcation neural network to classify cats and dogs. Most image classification projects utilize convolution neural networks. This dog and cats dataset was provided via the Kaggle website that contains 25,000 images and can be downloaded from here:
+https://www.kaggle.com/c/dogs-vs-cats/data
+
+Below, you will find the Jupyter notebook for this image classifier and the output datagraphs.
+
 ## Binary Classifier
 [Dogs and Cats Binary Classifier.pynb](1.%20Prerequisite%20Tasks/Image%20Processing/background_subtraction_array_manipulation.ipynb)
 
 # 2. YOLOv3
+So this is where most of the fun begins. We utilized the YOLOv3 network, which is currently one of the fastest networks for object detection:
+https://pjreddie.com/darknet/yolo/
 
-
+#3. Mturk Annotatons
 
 
 
