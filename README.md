@@ -8,13 +8,13 @@ Hiya, this will be a guide for my senior design project that spans two semesters
 0. Setup Tests
 1. Prerequisite Tasks
 2. YOLOv3
-3. Mturk Data Annotations
+3. MTurk Bounding Box Utils
 
 # 0. Setup Tests
 These are simple setup procedures that aid in later creating the neural network.
 
 Much of this code was written in Python, using Jupyter notebook to visualize the code or an IDE like PyCharm will suffice. Jupyter notebook can be installed via Anaconda here:
-
+https://www.anaconda.com/distribution/#download-section
 
 Let's make sure PyTorch is utilizing your NVIDIA CUDA GPU (if you have one that is):
 ```
@@ -82,7 +82,8 @@ Below, you will find the Jupyter notebook for this image classifier and the outp
 So this is where most of the fun begins. We utilized the YOLOv3 network, which is currently one of the fastest networks for object detection:
 https://pjreddie.com/darknet/yolo/
 
-#3. Mturk Annotatons
+# 3. MTurk Bounding Box Utils
+
 
 
 
