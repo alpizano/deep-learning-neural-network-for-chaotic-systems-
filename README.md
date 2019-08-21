@@ -14,7 +14,6 @@ Hiya, this will be a guide for my senior design project that spans two semesters
 These are simple setup procedures that aid in later creating the neural network.
 
 Much of this code was written in Python, using Jupyter notebook to visualize the code or an IDE like PyCharm will suffice. Jupyter notebook can be installed via Anaconda here:
-
 https://www.anaconda.com/distribution/#download-section
 
 Let's make sure PyTorch is utilizing your NVIDIA CUDA GPU (if you have one that is):
