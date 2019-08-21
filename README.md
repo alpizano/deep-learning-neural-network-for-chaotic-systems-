@@ -7,11 +7,13 @@ Hiya, this will be a guide for my senior design project that spans two semesters
 # Contents
 0. Setup Tests
 1. Prerequisite Tasks
-2.
-3.
+2. YOLOv3
 
 # 0. Setup Tests
 These are simple setup procedures that aid in later creating the neural network.
+
+Much of this code was written in Python, using Jupyter notebook to visualize the code or an IDE like PyCharm will suffice. Jupyter notebook can be installed via Anaconda here:
+
 
 Let's make sure PyTorch is utilizing your NVIDIA CUDA GPU (if you have one that is):
 ```
@@ -62,7 +64,14 @@ cv2.destroyAllWindows()
 In the first semester of Senior design, our group was led by Dr. Bin Chen. We were given some prelimary tasks to complete before embarking on actually trying to get a localization or classifcation neural network built. The first task was an image processing task which consisted becoming used to some of the basic techniques of image processing, like utilizing the PyTorch tensors,and the pillow (PIL) libraries:
 https://www.cs.virginia.edu/~vicente/recognition/notebooks/image_processing_lab.html
 
-[Contribution guidelines for this project](1.%20Prerequisite%20Tasks/Image%20Processing/background_subtraction_array_manipulation.ipynb)
+The image processing techniques mainly background subtraction and array manipulation and were written inside Jupyter notebook using Python 3. The techniques can be view below:
+
+## Background Subtraction and Array Manipulation
+
+[Image processing.pynb](1.%20Prerequisite%20Tasks/Image%20Processing/background_subtraction_array_manipulation.ipynb)
+
+# 2. YOLOv3
+
 
 
 
