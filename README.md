@@ -77,6 +77,7 @@ The second task we were given was to begin to implement a simple binary classifc
 https://www.kaggle.com/c/dogs-vs-cats/data
 
 Below, you will find the Jupyter notebook for this image classifier and the output matlab plots:
+
 [Dogs and Cats Binary Classifier.pynb](1.%20Prerequisite%20Tasks/Image%20Processing/background_subtraction_array_manipulation.ipynb)
 
 # 2. YOLOv3
