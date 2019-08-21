@@ -68,7 +68,10 @@ The image processing techniques mainly background subtraction and array manipula
 
 ## Background Subtraction and Array Manipulation
 
-[Image processing.pynb](1.%20Prerequisite%20Tasks/Image%20Processing/background_subtraction_array_manipulation.ipynb)
+[Background Substraction and Array Manipulation.pynb](1.%20Prerequisite%20Tasks/Image%20Processing/background_subtraction_array_manipulation.ipynb)
+
+## Binary Classifier
+[Dogs and Cats Binary Classifier.pynb](1.%20Prerequisite%20Tasks/Image%20Processing/background_subtraction_array_manipulation.ipynb)
 
 # 2. YOLOv3
 
