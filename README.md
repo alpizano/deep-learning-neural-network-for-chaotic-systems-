@@ -59,4 +59,11 @@ cv2.destroyAllWindows()
 ```
 
 # 1. Prerequisite Tasks
-In the first semester of Senior design, our group was led by Dr. Bin Chen. We were given some prelimary tasks to complete before embarking on actually trying to get a localization or classifcation neural network built. The first task was an image processing task 
+In the first semester of Senior design, our group was led by Dr. Bin Chen. We were given some prelimary tasks to complete before embarking on actually trying to get a localization or classifcation neural network built. The first task was an image processing task which consisted becoming used to some of the basic techniques of image processing, like utilizing the PyTorch tensors,and the pillow (PIL) libraries:
+https://www.cs.virginia.edu/~vicente/recognition/notebooks/image_processing_lab.html
+
+[Contribution guidelines for this project](1.%20Prerequisite%20Tasks/Image%20Processing/background_subtraction_array_manipulation.ipynb)
+
+
+
+
