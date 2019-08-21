@@ -81,6 +81,7 @@ Below, you will find the Jupyter notebook for this image classifier and the outp
 
 # 2. YOLOv3
 So this is where most of the fun begins. We utilized the YOLOv3 network, which is currently one of the fastest networks for object detection:
+
 https://pjreddie.com/darknet/yolo/
 
 # 3. MTurk Bounding Box Utils
