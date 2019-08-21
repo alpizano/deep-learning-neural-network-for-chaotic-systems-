@@ -71,12 +71,11 @@ The image processing techniques mainly background subtraction and array manipula
 
 [Background Substraction and Array Manipulation.pynb](1.%20Prerequisite%20Tasks/Image%20Processing/background_subtraction_array_manipulation.ipynb)
 
+## Binary Classifier
 The second task we were given was to begin to implement a simple binary classifcation neural network to classify cats and dogs. Most image classification projects utilize convolution neural networks. This dog and cats dataset was provided via the Kaggle website that contains 25,000 images and can be downloaded from here:
 https://www.kaggle.com/c/dogs-vs-cats/data
 
-Below, you will find the Jupyter notebook for this image classifier and the output datagraphs.
-
-## Binary Classifier
+Below, you will find the Jupyter notebook for this image classifier and the output matlab plots:
 [Dogs and Cats Binary Classifier.pynb](1.%20Prerequisite%20Tasks/Image%20Processing/background_subtraction_array_manipulation.ipynb)
 
 # 2. YOLOv3
