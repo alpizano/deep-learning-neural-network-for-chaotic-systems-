@@ -7,3 +7,6 @@
 [submodule "mturk_bbutils"]
 	path = mturk_bbutils
 	url = https://github.com/alpizano/mturk_bbutils.git
+[submodule "yolov3"]
+	path = yolov3
+	url = https://github.com/alpizano/yolov3.git
