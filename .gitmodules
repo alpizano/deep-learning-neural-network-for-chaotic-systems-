@@ -4,3 +4,6 @@
 [submodule "2. yolov3"]
 	path = 2. yolov3
 	url = https://github.com/alpizano/yolov3.git
+[submodule "mturk_bbutils"]
+	path = mturk_bbutils
+	url = https://github.com/alpizano/mturk_bbutils.git
