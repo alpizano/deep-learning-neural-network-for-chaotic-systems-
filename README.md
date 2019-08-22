@@ -86,7 +86,10 @@ So this is where most of the fun begins. We utilized the YOLOv3 network, which i
 https://pjreddie.com/darknet/yolo/
 
 # 3. MTurk Bounding Box Utils
+When acquiring data for the neural network, we searched youtube and google for various different images of roulette wheels/balls to train the network. We needed to train the network to detect the ball, 0 fret, and center of the wheel, so we need to feed the correct data with bounding boxes to train our network, essentially feeding it the correct answer so it could learn. We utilized Amazon's Mechnical Turk utility were we submit the data and the workers process the jobs to annotate your images. We have over 1,000 images, so we wrote a Python script to take the .CSV file that MTurk sends up with the bouding box data specificed as an XML string in one of the columns, and we parsed that data out and were able to visualize the bouding box via the matplotlib library.
 
+The full script can be found here:
+[MTurk Annotation Viewer.pynb](https://github.com/alpizano/mturk_bbutils/blob/5a94cb021b7b2185524ce6b5e1cf6760bd51ca87/mturk_annotation_viewer.py)
 
 
 
