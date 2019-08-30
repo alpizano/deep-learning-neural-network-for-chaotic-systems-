@@ -2,81 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="997120c2-b822-4835-a301-3f61f708b249" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/machine-learning-neural-network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/machine-learning-neural-network.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch 60min Blitz/.ipynb_checkpoints/Training classifier CIFAR10-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch 60min Blitz/Training classifier CIFAR10.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch 60min blitz/.ipynb_checkpoints/Autograd Automatic Differentiation-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch 60min blitz/.ipynb_checkpoints/Neural Network-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch 60min blitz/.ipynb_checkpoints/What is pytorch -checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch 60min blitz/Autograd Automatic Differentiation.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch 60min blitz/Neural Network.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch 60min blitz/What is pytorch .ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch Zero To All/.ipynb_checkpoints/Back propagation and Autograd 04-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch Zero To All/.ipynb_checkpoints/Gradient Descent 03-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch Zero To All/.ipynb_checkpoints/Linear model 02-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch Zero To All/.ipynb_checkpoints/linear regression 05-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch Zero To All/Back propagation and Autograd 04.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch Zero To All/Gradient Descent 03.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch Zero To All/Linear model 02.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch Zero To All/linear regression 05.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch with Baby Steps/.ipynb_checkpoints/from_y=x_training-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch with Baby Steps/from_y=x_training.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cat-dog-classif/.ipynb_checkpoints/binary_classif_new-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cat-dog-classif/.ipynb_checkpoints/dogs_and_cats-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cat-dog-classif/.ipynb_checkpoints/handwritten_test-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cat-dog-classif/.ipynb_checkpoints/test_file (1)-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cat-dog-classif/binary_classif_new.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cat-dog-classif/dogs_and_cats.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fer_0s_100.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fer_0s_150.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fer_0s_175.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fer_0s_200.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fer_255s_100.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fer_255s_50.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fer_grayscale.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ferrari-superfast_hp-red-upcoming-car-hd-photos-wallpaper.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gray_test_with_algo.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mask.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mask100.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mask125.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mask150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mask200.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mask50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mask75.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/panda.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/panda_gray.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_tensor.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_tensor2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensor_gray_test.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_car_zeros_175.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thecar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thecar2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thecar3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thecar_255s.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thecar_255s_100.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thecar_255s_50.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegeto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegeto_gray.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegeto_inverted_100.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegeto_inverted_150.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegeto_inverted_50.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegeto_inverted_65.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegeto_inverted_70.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegeto_inverted_75.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegeto_tensor_gray_test.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegeto_zeros_100.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegeto_zeros_200.JPG" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,12 +20,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mturk_bbutils" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/darknet_yolov3_openCV/hey.py" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
       </list>
     </option>
   </component>
@@ -100,39 +35,11 @@
     <option name="width" value="1333" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectId" id="1Pvd6ZFEkN8zUVkFXiFmiWPUcSS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="machine-learning-neural-network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine-learning-neural-network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine-learning-neural-network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="machine-learning-neural-network" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,41 +66,17 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12750264" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/darknet_yolov3_openCV/hey.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darknet_yolov3_openCV/camera-test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

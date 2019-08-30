@@ -10,3 +10,6 @@
 [submodule "yolov3"]
 	path = yolov3
 	url = https://github.com/alpizano/yolov3.git
+[submodule "Yolo_mark"]
+	path = Yolo_mark
+	url = https://github.com/alpizano/Yolo_mark.git
