@@ -93,5 +93,6 @@ The full script can be found here:
 
 [MTurk Annotation Viewer.pynb](https://github.com/alpizano/mturk_bbutils/blob/5a94cb021b7b2185524ce6b5e1cf6760bd51ca87/mturk_annotation_viewer.py)
 
-
+# 4. Yolo_mark
+After receiving the annotated image data from Amazon Mechanical Turk, we decided we would generate the annotations ourselves manually. We utilized the Yolo_mark GUI created by AlexeyAB
 
