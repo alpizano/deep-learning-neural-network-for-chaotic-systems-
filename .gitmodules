@@ -16,3 +16,6 @@
 [submodule "ultralytics"]
 	path = ultralytics
 	url = https://github.com/alpizano/ultralytics.git
+[submodule "darknet"]
+	path = darknet
+	url = https://github.com/alpizano/darknet.git
