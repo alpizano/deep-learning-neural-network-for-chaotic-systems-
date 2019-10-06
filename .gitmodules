@@ -13,3 +13,6 @@
 [submodule "Yolo_mark"]
 	path = Yolo_mark
 	url = https://github.com/alpizano/Yolo_mark.git
+[submodule "ultralytics"]
+	path = ultralytics
+	url = https://github.com/alpizano/ultralytics.git
