@@ -191,10 +191,32 @@ https://visualstudio.microsoft.com/vs/older-downloads/
 Press **CTRL + F5** or the green play button next to Windows Local Debugger and a blank image should be created and be shown on the screen signifing the installation went successfully! :bowtie:
 ![Installation Complete!](https://github.com/alpizano/Yolo_mark/blob/master/testopencv.png)
 
-# 5. Source code (Ultralytics)
-This neural network, based on the YOLOv3 architecture makes use of 75 convlutional layers. This setup for this network can be found in the roulette3.cfg file:
+# 5. Video to images
+After installing Yolo_mark, your images of your choice can be custom annotated and will output a corresponding *label* for each .jpg, which contains the positional coordinates of each object in your image. An example image and label pair would be:
+
+```
+../coco/images/val2014/COCO_val2014_000000013992.jpg  # image
+../coco/labels/val2014/COCO_val2014_000000013992.txt  # label
+```
+
+Yolo_mark will generate these files in the same ```img``` directory, however, in the ultralytics or your working directory, you can create a seperate ```images``` folder to place the images and another ```labels``` folder to place the labels.
+
+The positional data in the labels can be interpretated as such:
+- One file per image (if no objects in image, no label file is required).
+- One row per object.
+- Each row is class x_center y_center width height format.
+- Box coordinates must be in normalized xywh format (from 0 - 1).
+- Classes are zero-indexed (start from 0).
+
+An example label file with 4 persons (all class 0):
+![an example label.txt output via Yolo_mark for corresponding .jpg](https://github.com/alpizano/Deep-Learning-Neural-Network-for-Chaotic-Systems-/blob/master/label_ex.png)
+
+# 6. Source code (Ultralytics)
+This neural network, based on the YOLOv3 architecture makes use of 75 convolutional layers and a total of 222 layers. This setup for this network can be found in the roulette3.cfg file:
 
 https://github.com/alpizano/ultralytics/blob/beating-roulette/cfg/roulette3.cfg
+
+After creating our own custom dataset of images
 
 For my GTX1060 (6GB) and for this 2 classese neural network:
 - batches need to be set to 8
@@ -214,5 +236,8 @@ backup = backup/
 ```
 
 #### To train
-run 
+
+https://github.com/alpizano/ultralytics/blob/beating-roulette/train.py
+
+**Run** in command prompt
 ```python train.py --data data/roulette.data --cfg cfg/roulette3.cfg --batch-size 8```
