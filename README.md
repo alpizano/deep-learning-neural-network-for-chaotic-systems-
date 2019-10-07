@@ -191,3 +191,9 @@ https://visualstudio.microsoft.com/vs/older-downloads/
 Press **CTRL + F5** or the green play button next to Windows Local Debugger and a blank image should be created and be shown on the screen signifing the installation went successfully! :bowtie:
 ![Installation Complete!](https://github.com/alpizano/Yolo_mark/blob/master/testopencv.png)
 
+# 5. Source code (Ultralytics)
+Utilizing ultralytics, built on the YOLOv3 and implemented with PyTorch model, we could move forward with our annotated data. We can now take our annotated data produced via Yolo_mark, which generates a label file like so:
+```
+0 0.332422 0.415972 0.024219 0.037500
+1 0.701563 0.223611 0.065625 0.077778
+```
