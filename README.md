@@ -193,8 +193,26 @@ Press **CTRL + F5** or the green play button next to Windows Local Debugger and 
 
 # 5. Source code (Ultralytics)
 This neural network, based on the YOLOv3 architecture makes use of 75 convlutional layers. This setup for this network can be found in the roulette3.cfg file:
+
 https://github.com/alpizano/ultralytics/blob/beating-roulette/cfg/roulette3.cfg
 
-For my GTX1060 (6GB):
+For my GTX1060 (6GB) and for this 2 classese neural network:
 - batches need to be set to 8
 - subdivisions to 16
+- max_batches to 400
+- steps=3200,3600
+- classes=2 
+- filters=21
+
+the roulette.names file has this structure:
+```
+classes= 2
+train  = data/train.txt
+valid  = data/test.txt
+names = data/roulette.names
+backup = backup/
+```
+
+#### To train
+run 
+```python train.py --data data/roulette.data --cfg cfg/roulette3.cfg --batch-size 8```
