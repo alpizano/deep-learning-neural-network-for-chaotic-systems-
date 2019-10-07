@@ -197,3 +197,60 @@ Utilizing ultralytics, built on the YOLOv3 and implemented with PyTorch model, w
 0 0.332422 0.415972 0.024219 0.037500
 1 0.701563 0.223611 0.065625 0.077778
 ```
+
+Specifying training data
+Below is an an example of the .data file in your data folder. This file specifies training data configurations, data set location, and labels.
+
+You can specify your '.data' file with this command
+
+classes= 1
+train  = /home/dkendall/Documents/senior_design/data/train.txt
+valid  = /home/dkendall/Documents/senior_design/data/test.txt
+names =  data/Roulette.names
+backup = /home/dkendall/Documents/senior_design/backup
+Variable	Value
+Classes	number of classes network is to be trained for
+Train	path to text file containing line separated paths to each image in the training set
+Valid	path to text file containing line separated paths to each image in the test set
+names	path to .names file which defines your classes
+backup	path to backup folder for backing up weights intermediately
+Note: the order of the .names file must match the index used in the training data .txt files
+
+YOLO Annotations
+For every image you are using to train, test, or validate there is a corresponding text file in the same directory
+
+'image_example.jpg'<-->'image_example.txt'
+
+Example image_example.txt
+0 0.51625 0.49 0.5425 0.71
+0 0.2	  0.1  0.6    0.8
+1 0.453	0.456  0.2    0.2
+2 0.5   0.5    0.05   0.05
+How to interpret image_example.txt
+Class	X (center)	Y (center)	Width	Height
+0	0.51625	0.49	0.5425	0.71
+0	0.2	0.1	0.6	0.8
+1	0.453	0.456	0.2	0.2
+2	0.5	0.5	0.05	0.05
+X-Y specify the center of the anchor box which is normalized to values between 0-1 based on the height and width of the image
+Width and Height specify the width and height of the anchor box which are normalized values between 0-1 based on the height and width of the corresponding image
+Class specifies the class number whose number corresponds to the index of the class in your specified '.names'
+So an annotation with first_column_value = 0 would correspond to the first entry in your '.names' file
+An annotation with first_col_val = 1 would correspond to the second entry in your '.names' and so on
+Config File
+The configuration file (custom.cfg) file is where YOLOv3 gets network configuration parameters such as layer size, filters, grid size, and number of classes.
+
+There are a few changes needed to accommodate custom classes.(in our case we are using three)
+
+change line classes=80 to your number of objects in each of 3 [yolo]-layers https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L610 https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L696 https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L783
+change [filters=255] to filters=(classes + 5)x3 in the 3 [convolutional] before each [yolo] layer https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L603 https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L689 https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L776
+Note: There are more changes to the configuration file we need to make to make this network more effective
+
+Training for Smaller Objects
+Smaller Objects 1
+
+Smaller Objects 2
+
+Modifying the YOLOv3.cfg file would be beneficial. Linked is a proposed solution which should be investigated further which changes the grid size.
+
+Example Training Commands
