@@ -211,7 +211,7 @@ The positional data in the labels can be interpretated as such:
 An example label file with 4 persons (all class 0):
 ![an example label.txt output via Yolo_mark for corresponding .jpg](https://github.com/alpizano/Deep-Learning-Neural-Network-for-Chaotic-Systems-/blob/master/label_ex.png)
 
-# 6. Source code (Ultralytics)
+# 6. Training
 This neural network, based on the YOLOv3 architecture makes use of 75 convolutional layers and a total of 222 layers. This setup for this network can be found in the roulette3.cfg file:
 
 https://github.com/alpizano/ultralytics/blob/beating-roulette/cfg/roulette3.cfg
@@ -241,3 +241,6 @@ https://github.com/alpizano/ultralytics/blob/beating-roulette/train.py
 
 **Run** in command prompt
 ```python train.py --data data/roulette.data --cfg cfg/roulette3.cfg --batch-size 8```
+
+# 7. Inference
+python --source roulette.mp4 --cfg cfg/roulette3.cfg --weights weights/backup_270.pt
