@@ -240,6 +240,7 @@ backup = backup/
 https://github.com/alpizano/ultralytics/blob/beating-roulette/train.py
 
 **Run** in command prompt
+
 ```python train.py --data data/roulette.data --cfg cfg/roulette3.cfg --batch-size 8```
 
 # 7. Inference
