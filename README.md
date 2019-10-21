@@ -241,7 +241,7 @@ https://github.com/alpizano/ultralytics/blob/beating-roulette/train.py
 
 **Run** in command prompt
 
-```python train.py --data data/roulette.data --cfg cfg/roulette3.cfg --batch-size 8```
+```python train.py --data data/roulette3.data --cfg cfg/roulette3.cfg --batch-size 8```
 
 # 7. Inference
-```python detect.py --source roulette.mp4 --cfg cfg/roulette3.cfg --weights weights/best.pt```
+```python detect.py --source roulette.mp4 --data data/roulette3.data --cfg cfg/roulette3.cfg --weights weights/best.pt```
