@@ -241,7 +241,14 @@ https://github.com/alpizano/ultralytics/blob/beating-roulette/train.py
 
 **Run** in command prompt
 
+YOLOv3:
+
 ```python train.py --data data/roulette3.data --cfg cfg/roulette3.cfg --batch-size 8```
+
+YOLOv3_tiny:
+
+```python train.py --data data/roulette3.data --cfg cfg/roulette3-tiny_3l.cfg```
 
 # 7. Inference
 ```python detect.py --source roulette.mp4 --data data/roulette3.data --cfg cfg/roulette3.cfg --weights weights/best.pt```
+```python detect.py --source roulette_small.mp4 --data data/roulette3.data --cfg cfg/roulette3-tiny_3l.cfg --weights weights/best.pt```
