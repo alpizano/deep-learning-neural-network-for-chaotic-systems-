@@ -250,5 +250,5 @@ YOLOv3_tiny:
 ```python train.py --data data/roulette3.data --cfg cfg/roulette3-tiny_3l.cfg```
 
 # 7. Inference
-```python detect.py --source roulette.mp4 --data data/roulette3.data --cfg cfg/roulette3.cfg --weights weights/best.pt```
+```python detect.py --source roulette_small.mp4 --data data/roulette3.data --cfg cfg/roulette3.cfg --weights weights/best.pt --nms-thres 0.1```
 ```python detect.py --source roulette_small.mp4 --data data/roulette3.data --cfg cfg/roulette3-tiny_3l.cfg --weights weights/best.pt```
