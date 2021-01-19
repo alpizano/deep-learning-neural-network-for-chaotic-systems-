@@ -2,7 +2,7 @@
 ![deep learning is awesome!](https://github.com/alpizano/Deep-Learning-Neural-Network-for-Chaotic-Systems-/blob/master/read_cover.jpg)
 
 # Introduction
-Hiya, this will be a guide for my senior design project that spans two semesters Senior Design I (Spring 2019), and Senior Design II (Fall 2019), at Purdue University - Northwest. This project involved designing and developing a neural network that would object detect the 0 pocket and ball of a roulette wheel and generate a prediction of what pocket the ball would land during a game of roulette.
+Hiya, this will be a guide for my senior design project that spans two semesters Senior Design I (Spring 2019), and Senior Design II (Fall 2019), at Purdue University. This project involved designing and developing a neural network that would object detect the 0 pocket and ball of a roulette wheel and generate a prediction of what pocket the ball would land during a game of roulette.
 
 # Contents
 0. Setup Tests
